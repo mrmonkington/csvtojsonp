@@ -46,7 +46,7 @@ class CSV2JSONP(webapp2.RequestHandler):
         else:
             resp = ""
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write(self.request.get("callback", default_value="__callback") + "(" + resp + ")")
+        self.response.write(self.request.get("callback", default_value="__callback") + "(" + resp + ");")
 
 application = webapp2.WSGIApplication([
     ('/', CSV2JSONP),
