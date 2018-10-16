@@ -20,7 +20,7 @@ curl http://localhost:8080?url=https://raw.githubusercontent.com/mrmonkington/cs
 
 ## Installation
 
-You need to deploy to Google Cloud App Engine - which is a bit out of scope for this README. But [these instructions are good](https://cloud.google.com/appengine/docs/standard/python/getting-started/deploying-the-application)
+You need to deploy to Google Cloud App Engine - which is a bit out of scope for this README. But [these instructions are good](https://cloud.google.com/appengine/docs/standard/python/getting-started/deploying-the-application).
 
 ## Usage
 
